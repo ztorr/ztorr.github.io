@@ -51,5 +51,5 @@ plugins:
 #   - vendor/gems/
 #   - vendor/ruby/
 def 
-  print_hi(name)
+print_hi(name)
 end
