@@ -30,7 +30,7 @@ twitter_username: n/a
 github_username: ztorr
 
 # Build settings
-remote_theme: pages-themes/merlot@v0.2.0
+theme: minimal
 plugins:
   - jekyll-feed
   - jekyll-remote-theme
@@ -54,3 +54,4 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+remote_theme: pages-themes/merlot@v0.2.0
