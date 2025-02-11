@@ -30,7 +30,7 @@ twitter_username: n/a
 github_username: ztorr
 
 # Build settings
-theme: time machine
+theme: cayman
 plugins:
   - jekyll-feed
 
@@ -53,4 +53,4 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
-theme: jekyll-theme-time_machine
+theme: jekyll-theme-cayman
