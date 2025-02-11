@@ -50,3 +50,6 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+def print_hi(name)
+  puts "Hi, #{name}"
+end
