@@ -2,7 +2,7 @@
 ## Description  
 A website analyzing Kinesiology using Python/Excel.
 ## Features  
-- Interactive charts  
+- Maze game 
 - Video analysis  
 - Data documentation
 ## Link
