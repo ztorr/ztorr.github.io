@@ -1,13 +1,7 @@
-<!DOCTYPE html>
-<html>
-<head>
-<title>
-Title of the document
-</title>
-</head>
-
-<body>
-The content of the document......
-</body>
-
-</html>
+# Project Title  
+## Description  
+A website analyzing Kinesiology using Python/Excel.  \
+## Features  
+- Interactive charts  
+- Video analysis  
+- Data documentation  
