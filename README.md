@@ -6,4 +6,4 @@ A website analyzing Kinesiology using Python/Excel.
 - Video analysis  
 - Data documentation
 ## Link
-[ztorr.github.io](https://ztorr.github.io/index.html)
+- [ztorr.github.io](https://ztorr.github.io/index.html)
