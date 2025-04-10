@@ -166,7 +166,7 @@
     <div class="container">
         <!-- Video Player -->
         <div class="video-player">
-            <video controls>
+            <video id="movementVideo" controls>
                 <source src="assets/movement.MP4" type="video/mp4">
                 Your browser does not support the video tag.
             </video>
@@ -204,5 +204,18 @@
     <footer>
         <p>&copy; 2025 Zach Torralba | KNES 381</p>
     </footer>
+
+    <!-- Auto-replay Script -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const video = document.getElementById('movementVideo');
+            if (video) {
+                video.addEventListener('ended', function() {
+                    this.currentTime = 0;
+                    this.play();
+                }, false);
+            }
+        });
+    </script>
 </body>
 </html>
