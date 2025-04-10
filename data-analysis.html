@@ -182,25 +182,32 @@
                 <div class="code-container">
                     <div class="code-title">Python Code to Load CSV Data</div>
                     <pre><code><span class="code-comment"># Import required libraries</span>
+<span class="code-keyword">import</span> numpy <span class="code-keyword">as</span> np
 <span class="code-keyword">import</span> pandas <span class="code-keyword">as</span> pd
 <span class="code-keyword">import</span> matplotlib.pyplot <span class="code-keyword">as</span> plt
 
 <span class="code-comment"># Load the CSV file into a DataFrame</span>
 df = pd.<span class="code-function">read_csv</span>(<span class="code-string">'knes381_data.csv'</span>)
 
-<span class="code-comment"># Display basic information about the data</span>
+<span class="code-comment"># Show information about the data</span>
 <span class="code-function">print</span>(df.<span class="code-function">info</span>())
 <span class="code-function">print</span>(df.<span class="code-function">head</span>())
 
-<span class="code-comment"># Basic visualization example</span>
+<span class="code-comment"># Basic graphing example</span>
 df[<span class="code-string">'VO2'</span>].<span class="code-function">plot</span>(kind=<span class="code-string">'line'</span>)
 plt.<span class="code-function">title</span>(<span class="code-string">'VO2 Over Time'</span>)
-plt.<span class="code-function">xlabel</span>(<span class="code-string">'Time (s)'</span>)
+plt.<span class="code-function">xlabel</span>(<span class="code-string">'Time (min)'</span>)
 plt.<span class="code-function">ylabel</span>(<span class="code-string">'VO2 (L/min)'</span>)
 plt.<span class="code-function">show</span>()</code></pre>
                 </div>
             </div>
         </div>
+        
+        <div class="container"
+            <img src="assets/example.png">
+        </div>
+
+ 
 
         <!-- Key Findings Section -->
         <div class="card">
